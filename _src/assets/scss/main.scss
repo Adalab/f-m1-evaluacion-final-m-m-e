@@ -1,6 +1,26 @@
 @import 'core/settings';
+@import 'core/variables';
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
+.page {
+	background: lightblue;
 	height: 100vh;
+	font-family: $font-main;
+	font-size: 16px;
+	margin: 0;
 }
+
+.wrapper {
+	margin: 0 15px;
+}
+
+/*header*/
+@import 'layout/header';
+
+/*articles*/
+@import 'layout/articles';
+
+/*reasons*/
+@import 'layout/reasons';
+
+/*footer*/
+@import 'layout/footer';
