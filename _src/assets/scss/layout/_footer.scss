@@ -134,3 +134,17 @@
         text-align: left;
     }
 }
+
+/*desktop version*/
+
+@media all and (min-width:1280px) {
+    .footer__wrapper {
+        margin: 0 370px;
+        box-sizing: border-box;
+    }
+
+    .grid__box {
+        width: 540px;
+        grid-template-columns: 159px 161px 159px;
+    }
+}
