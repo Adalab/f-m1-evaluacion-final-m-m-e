@@ -7,14 +7,28 @@
     padding-top: 30px;
     padding-bottom: 1px;
     margin: 0;
+    height: 30px;
+    font-size: 14px;
+    line-height: 2.14;
 }
 .articles__title {
     margin: 0;
     padding-bottom: 15px;
+    height: 60px;
+    font-family: $font-titles;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: $color-black;
 }
 .articles__text {
     margin: 0;
     padding-bottom: 30px;
+    height: 120px;
+    font-family: $font-main;
+    font-size: 18px;
+    line-height: 1.67;
+    color: $color-grey;
 }
 
 /*button*/
