@@ -146,9 +146,12 @@
 
     .footer__button {
         transform: translate(82.5px, -67.5px);
+        animation-name: button-up-2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
     }
-
-    // @keyframes button-up {
+    // @keyframes button-up2 {
     //     0% {
     //         transform: translate(82.5px, -117.5px);
     //     }
