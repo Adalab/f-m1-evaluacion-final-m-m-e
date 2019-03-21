@@ -10,6 +10,7 @@
     height: 30px;
     font-size: 14px;
     line-height: 2.14;
+    text-transform: capitalize;
 }
 .articles__title {
     margin: 0;
@@ -21,6 +22,7 @@
     font-weight: bold;
     line-height: 1.25;
     color: $color-black;
+    text-transform: capitalize;
 }
 .articles__text {
     margin: 0;
@@ -45,6 +47,12 @@
     border-radius: 22.5px;
     padding: 0;
     color: $color-orange;
+    transition: color ease 0.1s, border ease 0.1s, transform ease-in 0.1s;
+    &:hover {
+        color:$color-blue;
+        border: solid 2px $color-blue;
+        transform: scale(1.1);
+    }
 }
 
 /*tablet version*/
