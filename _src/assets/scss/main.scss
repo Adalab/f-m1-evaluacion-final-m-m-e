@@ -1,6 +1,10 @@
 @import 'core/settings';
 @import 'core/variables';
 
+body {
+	margin: 0;
+}
+
 .page {
 	background: lightblue;
 	height: 100vh;
