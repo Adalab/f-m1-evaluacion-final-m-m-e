@@ -1,0 +1,33 @@
+.articles {
+    background: $color-white;
+    height: 376px;
+}
+.articles__subtitle {
+    color: $color-lightblue;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    margin: 0;
+}
+.articles__title {
+    margin: 0;
+    padding-bottom: 15px;
+}
+.articles__text {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+/*button*/
+
+.articles__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 45px;
+    margin: 0;
+    border: solid 2px $color-orange;
+    border-radius: 22.5px;
+    padding: 0;
+    color: $color-orange;
+}
