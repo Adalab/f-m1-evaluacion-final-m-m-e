@@ -45,3 +45,29 @@
     padding: 0;
     color: $color-orange;
 }
+
+/*tablet version*/
+@media all and (min-width:768px) {
+    .articles__subtitle {
+        width: 216px;
+    }
+
+    .articles__title {
+        padding-bottom: 30px;
+        height: 45px;
+        font-size: 26px;
+        line-height: 1.73;
+    }
+
+    .articles__text {
+        height: 60px;
+        font-size: 20px;
+        line-height: 1.5;
+        color: $color-grey;
+    }
+
+    .articles__link {
+        width: 91px;
+        padding: 0;
+    }
+}
