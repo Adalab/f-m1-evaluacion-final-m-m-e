@@ -103,12 +103,38 @@
         line-height: 1.5;
         width: 212.3px;
         height: 68px;
-        padding: 0;
+        padding: 14px 0 0 0;
     }
 
     .reasons__link {
         width: 210px;
-        display: flex;
         margin: 60px 0;
+    }
+}
+
+/*desktop version*/
+
+@media all and (min-width:1280px) {
+    .reasons__wrapper {
+        margin: 0 85px;
+    }
+
+    .reasons__title {
+        font-size: 32px;
+        line-height: 1.41;
+        width: 730px;
+        padding-top: 60px;
+    }
+
+    .reasons__box-title {
+        width: 350px;
+    }
+
+    .reasons__box-text {
+        width: 353.8px;
+    }
+
+    .reasons__link {
+        width: 255px;
     }
 }
