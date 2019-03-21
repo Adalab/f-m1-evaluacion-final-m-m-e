@@ -24,12 +24,29 @@
     padding-bottom: 30px;
     margin: 0;
 }
-
+/*button*/
 .footer__button {
     position: absolute;
     transform: translate(0, -82.5px);
+    animation-name: button-up;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
+@keyframes button-up {
+    0% {
+        transform: translate(0, -117.5px);
+    }
+    50% {
+        transform: translate(0, -47.5px);
+    }
+    100% {
+        transform: translate(0, -117.5px);
+    }
+}
+
+/*links*/
 .footer__links {
     list-style: none;
     padding: 0;
@@ -130,6 +147,18 @@
     .footer__button {
         transform: translate(82.5px, -67.5px);
     }
+
+    // @keyframes button-up {
+    //     0% {
+    //         transform: translate(82.5px, -117.5px);
+    //     }
+    //     50% {
+    //         transform: translate(82.5px, -47.5px);
+    //     }
+    //     100% {
+    //         transform: translate(82.5px, -117.5px);
+    //     }
+    // }
 
     .copyright {
         text-align: left;
