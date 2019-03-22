@@ -11,12 +11,12 @@
     font-size: 14px;
     line-height: 2.14;
     text-transform: capitalize;
+    font-weight: normal;
 }
 .articles__title {
     margin: 0;
     padding-bottom: 15px;
     height: 60px;
-    width: 290px;
     font-family: $font-titles;
     font-size: 24px;
     font-weight: bold;
@@ -28,7 +28,6 @@
     margin: 0;
     padding-bottom: 30px;
     height: 120px;
-    font-family: $font-main;
     font-size: 18px;
     line-height: 1.67;
     color: $color-grey;
@@ -38,14 +37,11 @@
 
 .articles__link {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 76px;
     height: 45px;
     margin: 0 0 45px 0;
     border: solid 2px $color-orange;
     border-radius: 22.5px;
-    padding: 0;
     color: $color-orange;
     transition: color ease 0.1s, border ease 0.1s, transform ease-in 0.1s;
     &:hover {
@@ -53,6 +49,15 @@
         border: solid 2px $color-blue;
         transform: scale(1.1);
     }
+}
+
+.articles__link-text {
+    width: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.25;
+    padding: 0 25px 0 26px;
 }
 
 /*tablet version*/
