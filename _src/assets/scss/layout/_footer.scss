@@ -8,6 +8,17 @@
     align-items: center;
 }
 
+.footer__button {
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+.footer__button-image {
+    width: 20.6px;
+    height: 24px;
+    object-fit: contain;
+}
+
 .grid__box {
     display: flex;
     flex-direction: column;
@@ -19,21 +30,17 @@
     height: 150px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     padding-top: 60px;
     padding-bottom: 30px;
     margin: 0;
-}
-
-.footer__button {
-    position: absolute;
-    transform: translate(0, -82.5px);
 }
 
 .footer__links {
     list-style: none;
     padding: 0;
     text-align: center;
+    margin: 0;
 }
 
 .footer__link {
@@ -55,6 +62,7 @@
 .footer__sm__links {
     list-style: none;
     padding: 0;
+    margin: 0;
     text-align: center;
 }
 
