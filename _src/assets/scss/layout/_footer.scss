@@ -83,6 +83,11 @@
     text-transform: lowercase;
 }
 
+.heart {
+    font-family: ZapfDingbatsITC;
+    color: $color-orange;
+}
+
 /*tablet version*/
 
 @media all and (min-width:768px) {
