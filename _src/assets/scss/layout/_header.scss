@@ -75,6 +75,10 @@
 /*tablet version*/
 
 @media all and (min-width:768px) {
+    .header {
+        height: 768px;
+    }
+
     .header__title {
     font-size: 80px;
     width: 690px;
