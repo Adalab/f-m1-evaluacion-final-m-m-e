@@ -62,6 +62,10 @@
 
 /*tablet version*/
 @media all and (min-width:768px) {
+    .articles {
+        height: 330px;
+    }
+
     .articles__subtitle {
         width: 216px;
         padding-bottom: 0;
@@ -85,6 +89,10 @@
     .articles__link {
         width: 91px;
         margin: 0 0 60px 0;
+    }
+
+    .articles__link-text {
+        padding: 0 32.5px 0 33.5px;
     }
 }
 
@@ -110,5 +118,9 @@
 
     .articles__link {
         width: 160px;
+    }
+
+    .articles__link-text {
+        padding: 0 67px 0 68px;
     }
 }

@@ -30,7 +30,6 @@
     height: 150px;
     display: flex;
     flex-direction: column;
-    // align-items: center;
     padding-top: 60px;
     padding-bottom: 30px;
     margin: 0;
@@ -138,10 +137,6 @@
 
     .copy__box {
         align-items: flex-start;
-    }
-
-    .footer__button {
-        transform: translate(82.5px, -67.5px);
     }
 
     .copyright {
